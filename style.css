@@ -1,4 +1,55 @@
-footer p {
+/* Tablet */
+@media screen and (max-width: 1000px) {
+    .wrapper h1 {
+        font-size: 32px;
+        margin-bottom: -20px;
+    }
+
+    .lesson-icon a {
+        font-size: 22px;
+    }
+
+}
+
+/* Smartphone */
+@media screen and (max-width: 670px) {
+    .btn-header {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .wrapper {
+        text-align: left;
+        background-repeat: round;
+    }
+
+    .wrapper h1 {
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: -20px;
+        text-align: left;
+        line-height: 10px;
+    }
+
+    .lessons h2 {
+        font-size: 30px;
+    }
+
+    .lessons .container .header p {
+        font-size: 14px;
+    }
+
+    .lesson-icon a {
+        font-size: 18px;
+    }
+
+    footer p {
     color: #535353;
     font-size: 16px;
+    }
 }
